@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>569278450646-h7juhmgq9r8l88s73c6lo9gfdqlfpjc3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.569278450646-h7juhmgq9r8l88s73c6lo9gfdqlfpjc3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD1YokfAGl9quk8-0b52HNagBhZTjlgStY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>569278450646</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.faruuq.EdLink</string>
+	<key>PROJECT_ID</key>
+	<string>edlink-sevima-4b50a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>edlink-sevima-4b50a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:569278450646:ios:209fa0670177dee34a7277</string>
+</dict>
+</plist>

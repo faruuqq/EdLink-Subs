@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Slide" customModule="EdLink" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scroll1" translatesAutoresizingMaskIntoConstraints="NO" id="tNL-8L-9zo">
+                    <rect key="frame" x="0.0" y="263" width="414" height="269"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tat-m7-YOY">
+                    <rect key="frame" x="40" y="572" width="334" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8o1-XD-MHS">
+                    <rect key="frame" x="40" y="603" width="334" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="tNL-8L-9zo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ELP-gh-K5y"/>
+                <constraint firstItem="8o1-XD-MHS" firstAttribute="leading" secondItem="Tat-m7-YOY" secondAttribute="leading" id="J8M-Zr-duX"/>
+                <constraint firstItem="Tat-m7-YOY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="Q4f-Jk-7G1"/>
+                <constraint firstAttribute="trailing" secondItem="Tat-m7-YOY" secondAttribute="trailing" constant="40" id="Xjo-7Q-Kz2"/>
+                <constraint firstItem="Tat-m7-YOY" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="1.3" id="ac0-65-JMk"/>
+                <constraint firstItem="Tat-m7-YOY" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bml-VX-ACl"/>
+                <constraint firstAttribute="trailing" secondItem="tNL-8L-9zo" secondAttribute="trailing" id="dV5-Nx-RDT"/>
+                <constraint firstItem="8o1-XD-MHS" firstAttribute="trailing" secondItem="Tat-m7-YOY" secondAttribute="trailing" id="ew0-tJ-moc"/>
+                <constraint firstItem="Tat-m7-YOY" firstAttribute="top" secondItem="tNL-8L-9zo" secondAttribute="bottom" constant="40" id="hqK-gc-k3g"/>
+                <constraint firstItem="tNL-8L-9zo" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="30%" id="mTR-6L-Dig"/>
+                <constraint firstItem="8o1-XD-MHS" firstAttribute="top" secondItem="Tat-m7-YOY" secondAttribute="bottom" constant="10" id="qwd-oK-xHk"/>
+            </constraints>
+            <connections>
+                <outlet property="mainImg" destination="tNL-8L-9zo" id="oxH-UT-Qa9"/>
+                <outlet property="mainTitle" destination="Tat-m7-YOY" id="NrQ-qU-MyB"/>
+                <outlet property="subtitle" destination="8o1-XD-MHS" id="oCG-y5-v5U"/>
+            </connections>
+            <point key="canvasLocation" x="122" y="97"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="scroll1" width="612" height="545"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

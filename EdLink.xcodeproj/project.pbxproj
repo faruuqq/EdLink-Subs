@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13AC01ED55F785772CA5F44E /* Pods_EdLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E496C58045C1FBBD9559446 /* Pods_EdLink.framework */; };
+		2A18265425A7E208008AC2F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A18265325A7E208008AC2F8 /* AppDelegate.swift */; };
+		2A18265625A7E208008AC2F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A18265525A7E208008AC2F8 /* SceneDelegate.swift */; };
+		2A18265825A7E208008AC2F8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A18265725A7E208008AC2F8 /* HomeVC.swift */; };
+		2A18265B25A7E208008AC2F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A18265925A7E208008AC2F8 /* Main.storyboard */; };
+		2A18265D25A7E20A008AC2F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A18265C25A7E20A008AC2F8 /* Assets.xcassets */; };
+		2A18266025A7E20A008AC2F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A18265E25A7E20A008AC2F8 /* LaunchScreen.storyboard */; };
+		2A1826F725A7ECFE008AC2F8 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1826F525A7ECFE008AC2F8 /* HomeCell.swift */; };
+		2A1826F825A7ECFE008AC2F8 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A1826F625A7ECFE008AC2F8 /* HomeCell.xib */; };
+		2A1826FB25A7F21C008AC2F8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1826FA25A7F21C008AC2F8 /* Model.swift */; };
+		2A18272625A7F797008AC2F8 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A18272525A7F797008AC2F8 /* Authentication.storyboard */; };
+		2A20FB6D25A808AA00B6477F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A20FB6C25A808AA00B6477F /* GoogleService-Info.plist */; };
+		2A60A75425A7F9E3004BE689 /* AuthenticationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60A75325A7F9E3004BE689 /* AuthenticationVC.swift */; };
+		2A60A75725A7FB01004BE689 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60A75625A7FB01004BE689 /* Slide.swift */; };
+		2A60A75A25A7FB09004BE689 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A60A75925A7FB09004BE689 /* Slide.xib */; };
+		2A60A75D25A803DD004BE689 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60A75C25A803DD004BE689 /* SignInVC.swift */; };
+		2A60A76025A803E8004BE689 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60A75F25A803E8004BE689 /* SignUpVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00A7FF8DAFCCC733151EA05B /* Pods-EdLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdLink.debug.xcconfig"; path = "Target Support Files/Pods-EdLink/Pods-EdLink.debug.xcconfig"; sourceTree = "<group>"; };
+		2A18265025A7E208008AC2F8 /* EdLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A18265325A7E208008AC2F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A18265525A7E208008AC2F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2A18265725A7E208008AC2F8 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		2A18265A25A7E208008AC2F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A18265C25A7E20A008AC2F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A18265F25A7E20A008AC2F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A18266125A7E20A008AC2F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1826F525A7ECFE008AC2F8 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		2A1826F625A7ECFE008AC2F8 /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		2A1826FA25A7F21C008AC2F8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2A18272525A7F797008AC2F8 /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		2A20FB6C25A808AA00B6477F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2A60A75325A7F9E3004BE689 /* AuthenticationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationVC.swift; sourceTree = "<group>"; };
+		2A60A75625A7FB01004BE689 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		2A60A75925A7FB09004BE689 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		2A60A75C25A803DD004BE689 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		2A60A75F25A803E8004BE689 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		8E496C58045C1FBBD9559446 /* Pods_EdLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EdLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3C52DD1310C230E4376BEB /* Pods-EdLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdLink.release.xcconfig"; path = "Target Support Files/Pods-EdLink/Pods-EdLink.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A18264D25A7E208008AC2F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AC01ED55F785772CA5F44E /* Pods_EdLink.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A18264725A7E208008AC2F8 = {
+			isa = PBXGroup;
+			children = (
+				2A18265225A7E208008AC2F8 /* EdLink */,
+				2A18265125A7E208008AC2F8 /* Products */,
+				3E750D8AB5D56B62D9572C2F /* Pods */,
+				EB106C9ABBDDB384112F21D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A18265125A7E208008AC2F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A18265025A7E208008AC2F8 /* EdLink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A18265225A7E208008AC2F8 /* EdLink */ = {
+			isa = PBXGroup;
+			children = (
+				2A18265325A7E208008AC2F8 /* AppDelegate.swift */,
+				2A18265525A7E208008AC2F8 /* SceneDelegate.swift */,
+				2A18272925A7F7CA008AC2F8 /* HomeVC */,
+				2A20FB9725A80DBC00B6477F /* AuthVC */,
+				2A18265C25A7E20A008AC2F8 /* Assets.xcassets */,
+				2A18265E25A7E20A008AC2F8 /* LaunchScreen.storyboard */,
+				2A18266125A7E20A008AC2F8 /* Info.plist */,
+				2A20FB6C25A808AA00B6477F /* GoogleService-Info.plist */,
+			);
+			path = EdLink;
+			sourceTree = "<group>";
+		};
+		2A18272825A7F7AA008AC2F8 /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				2A1826F525A7ECFE008AC2F8 /* HomeCell.swift */,
+				2A1826F625A7ECFE008AC2F8 /* HomeCell.xib */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		2A18272925A7F7CA008AC2F8 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				2A18272825A7F7AA008AC2F8 /* HomeCell */,
+				2A1826FA25A7F21C008AC2F8 /* Model.swift */,
+				2A18265725A7E208008AC2F8 /* HomeVC.swift */,
+				2A18265925A7E208008AC2F8 /* Main.storyboard */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		2A20FB9725A80DBC00B6477F /* AuthVC */ = {
+			isa = PBXGroup;
+			children = (
+				2A60A76225A80406004BE689 /* Slide */,
+				2A18272525A7F797008AC2F8 /* Authentication.storyboard */,
+				2A60A75325A7F9E3004BE689 /* AuthenticationVC.swift */,
+				2A60A75C25A803DD004BE689 /* SignInVC.swift */,
+				2A60A75F25A803E8004BE689 /* SignUpVC.swift */,
+			);
+			path = AuthVC;
+			sourceTree = "<group>";
+		};
+		2A60A76225A80406004BE689 /* Slide */ = {
+			isa = PBXGroup;
+			children = (
+				2A60A75625A7FB01004BE689 /* Slide.swift */,
+				2A60A75925A7FB09004BE689 /* Slide.xib */,
+			);
+			path = Slide;
+			sourceTree = "<group>";
+		};
+		3E750D8AB5D56B62D9572C2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00A7FF8DAFCCC733151EA05B /* Pods-EdLink.debug.xcconfig */,
+				FB3C52DD1310C230E4376BEB /* Pods-EdLink.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB106C9ABBDDB384112F21D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E496C58045C1FBBD9559446 /* Pods_EdLink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A18264F25A7E208008AC2F8 /* EdLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A18266425A7E20A008AC2F8 /* Build configuration list for PBXNativeTarget "EdLink" */;
+			buildPhases = (
+				A27F0F74EE4A51707795ABA4 /* [CP] Check Pods Manifest.lock */,
+				2A18264C25A7E208008AC2F8 /* Sources */,
+				2A18264D25A7E208008AC2F8 /* Frameworks */,
+				2A18264E25A7E208008AC2F8 /* Resources */,
+				428348101870DC443721FD2D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EdLink;
+			productName = EdLink;
+			productReference = 2A18265025A7E208008AC2F8 /* EdLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A18264825A7E208008AC2F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					2A18264F25A7E208008AC2F8 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 2A18264B25A7E208008AC2F8 /* Build configuration list for PBXProject "EdLink" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A18264725A7E208008AC2F8;
+			productRefGroup = 2A18265125A7E208008AC2F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A18264F25A7E208008AC2F8 /* EdLink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A18264E25A7E208008AC2F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A18266025A7E20A008AC2F8 /* LaunchScreen.storyboard in Resources */,
+				2A18265D25A7E20A008AC2F8 /* Assets.xcassets in Resources */,
+				2A1826F825A7ECFE008AC2F8 /* HomeCell.xib in Resources */,
+				2A18265B25A7E208008AC2F8 /* Main.storyboard in Resources */,
+				2A18272625A7F797008AC2F8 /* Authentication.storyboard in Resources */,
+				2A60A75A25A7FB09004BE689 /* Slide.xib in Resources */,
+				2A20FB6D25A808AA00B6477F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		428348101870DC443721FD2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EdLink/Pods-EdLink-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EdLink/Pods-EdLink-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EdLink/Pods-EdLink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A27F0F74EE4A51707795ABA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EdLink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A18264C25A7E208008AC2F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1826FB25A7F21C008AC2F8 /* Model.swift in Sources */,
+				2A60A76025A803E8004BE689 /* SignUpVC.swift in Sources */,
+				2A18265825A7E208008AC2F8 /* HomeVC.swift in Sources */,
+				2A60A75D25A803DD004BE689 /* SignInVC.swift in Sources */,
+				2A60A75425A7F9E3004BE689 /* AuthenticationVC.swift in Sources */,
+				2A18265425A7E208008AC2F8 /* AppDelegate.swift in Sources */,
+				2A60A75725A7FB01004BE689 /* Slide.swift in Sources */,
+				2A1826F725A7ECFE008AC2F8 /* HomeCell.swift in Sources */,
+				2A18265625A7E208008AC2F8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A18265925A7E208008AC2F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A18265A25A7E208008AC2F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A18265E25A7E20A008AC2F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A18265F25A7E20A008AC2F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A18266225A7E20A008AC2F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A18266325A7E20A008AC2F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A18266525A7E20A008AC2F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00A7FF8DAFCCC733151EA05B /* Pods-EdLink.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FKY4347J7;
+				INFOPLIST_FILE = EdLink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.faruuq.EdLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2A18266625A7E20A008AC2F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3C52DD1310C230E4376BEB /* Pods-EdLink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FKY4347J7;
+				INFOPLIST_FILE = EdLink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.faruuq.EdLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A18264B25A7E208008AC2F8 /* Build configuration list for PBXProject "EdLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A18266225A7E20A008AC2F8 /* Debug */,
+				2A18266325A7E20A008AC2F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A18266425A7E20A008AC2F8 /* Build configuration list for PBXNativeTarget "EdLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A18266525A7E20A008AC2F8 /* Debug */,
+				2A18266625A7E20A008AC2F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A18264825A7E208008AC2F8 /* Project object */;
+}
